@@ -23,7 +23,6 @@ function Footer() {
                         <Link to='/sign-up'>How it works</Link>
                         <Link to='/'>Testimonials</Link>
                         <Link to='/'>Careers</Link>
-                        <Link to='/'>Investors</Link>
                         <Link to='/'>Terms of Service</Link>
                     </div>
                     <div class='footer-link-items'>
@@ -51,6 +50,21 @@ function Footer() {
                     </div>
                 </div>
             </div>
+            <section className="social-media">
+                <div className="social-media-wrap">
+                    <div className="footer-logo">
+                        <Link to='/' className='social-logo'>TRVL <i className="fab fa-typo3"/></Link>
+                    </div>
+                    <small className='website-rights'>TRVL © 2022</small>
+                    <div className="social-icons">
+                        <Link to='/' target='_blank' aria-label='Facebook' className="social-icon-link faceboook"><i className="fab fa-facebook-f"/></Link>
+                        <Link to='/' target='_blank' aria-label='Instagram' className="social-icon-link instagram"><i className="fab fa-instagram"/></Link>
+                        <Link to='/' target='_blank' aria-label='Youtube' class='social-icon-link youtube'><i class='fab fa-youtube'/></Link>
+                        <Link to='/' target='_blank' aria-label='Twitter' class='social-icon-link twitter'><i class='fab fa-twitter'/></Link>
+                        <Link to='/' target='_blank' aria-label='LinkedIn' class='social-icon-link twitter'><i class='fab fa-linkedin'/></Link>
+                    </div>
+                </div>
+            </section>
         </div>
     )
 }
